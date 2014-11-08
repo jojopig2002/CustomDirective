@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todo">
+    <head>
+        <meta charset="utf-8">
+        <title>
+        Int
+        </title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" type="text/css">
+        <link rel="stylesheet" href="css/app.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/ng-grid.css">
+        <script src="bower_components/angular/angular.js" type="text/javascript">
+        </script>
+        <script src="bower_components/jquery/jquery.js" type="text/javascript">
+        </script>
+        <script src="bower_components/angular-dreamfactory/angular-dreamfactory.js" type="text/javascript">
+        </script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js" type="text/javascript">
+        </script>
+        <script src="js/controllers.js" type="text/javascript">
+        </script>
+        <script src="js/services.js" type="text/javascript">
+        </script>
+        <script src="js/ng-grid.js" type="text/javascript">
+        </script>
+        <script src="js/directives.js" type="text/javascript">
+        </script>
+    </head>
+    <body ng-controller="TodoCtrl">
+        <div>
+            <!-- <div class='emptyBlock'></div> -->
+            <div class='centered1'>
+                <h2>Reusable panel</h2>
+                <hr>
+                <div class="col-md-4">
+                    Panel1: <input class="form-control" ng-model='modelPreset' ></input>
+                </div>
+                <div class="col-md-4">
+                    Panel1Field1: <input class="form-control" ng-model='modelField1' ng-disabled='false'></input>
+                </div>
+                <div class="col-md-4">
+                    Panel1Field2: <input class="form-control" ng-model='modelField2' ng-disabled='false'></input>
+                </div>
+                <div class='emptyBlock'></div>
+                <div class='emptyBlock'></div>
+                <div class='emptyBlock'></div>
+                <div my-Panel='panelOptions'></div>
+                <div class='emptyBlock'></div>
+                <div class='emptyBlock'></div>
+                <hr>
+                <div class="col-md-4">
+                    Panel2: <input class="form-control" ng-model='modelPreset1' ></input>
+                </div>
+                <div class="col-md-4">
+                    Panel2Field1: <input class="form-control" ng-model='modelField3' ng-disabled='false'></input>
+                </div>
+                <div class="col-md-4">
+                    Panel2Field2: <input class="form-control" ng-model='modelField4' ng-disabled='false'></input>
+                </div>
+                <div class='emptyBlock'></div>
+                <div class='emptyBlock'></div>
+                <div class='emptyBlock'></div>
+                <div my-Panel='panelOptions1'></div>
+            </div>
+        </div>
+        
+    </body>
+</html>
