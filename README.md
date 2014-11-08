@@ -13,7 +13,7 @@ Requirement:
 </ol>
 
 Design:
-<img src=''></img>
+<img src='http://i60.tinypic.com/2whfjom.jpg'></img>
 
 Code:
 Find the code in the repository.
