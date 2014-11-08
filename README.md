@@ -1,4 +1,6 @@
-This repository demos how to write a complex and resuable directive with angular. The directive is a panel with several controls.
+This repository demos how to write a complex and resuable directive with angular. 
+
+The directive is a panel with several controls. The panel has a dropdownlist to list all the preset data. If selecting a preset and clicking load button, the value of the preset will be displayed in the field inputbox. The panel also supports other actions like save, delete and add a preset data.
 
 App screenshot:
 <img src='http://i61.tinypic.com/530bdg.png'></img>
