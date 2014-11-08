@@ -4,13 +4,13 @@ App screenshot:
 <img src=''></img>
 
 Requirement:
-<ul>
+<ol>
 	<li>1. Create a reusable panel.</li>
 	<li>2. The panel has a dropdownlist to list all the preset data.</li>
 	<li>3. If selecting a preset and clicking load button, the value of the preset will be displayed in the field inputbox.</li>
 	<li>4. The panel also supports other actions like save, delete and add a preset data.</li>
 	<li>5. The panel can be reused in a page or across different applications.</li>
-</ul>
+</ol>
 
 Design:
 <img src=''></img>
