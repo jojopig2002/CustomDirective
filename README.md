@@ -1,7 +1,7 @@
 This repository demos how to write a complex and resuable directive with angular. The directive is a panel with several controls.
 
 App screenshot:
-<img src=''></img>
+<img src='http://i61.tinypic.com/530bdg.png'></img>
 
 Requirement:
 <ol>
